@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static", "Static\Static.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFields_Properties_Constructors", "StaticFields_Properties_Constructors\StaticFields_Properties_Constructors.csproj", "{6B9F59D0-68CC-4EEA-A6EE-E3CA8007BF8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{C8F08688-68CD-4679-9EBD-6900FEC94FE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{6B9F59D0-68CC-4EEA-A6EE-E3CA8007BF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B9F59D0-68CC-4EEA-A6EE-E3CA8007BF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B9F59D0-68CC-4EEA-A6EE-E3CA8007BF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F08688-68CD-4679-9EBD-6900FEC94FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F08688-68CD-4679-9EBD-6900FEC94FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F08688-68CD-4679-9EBD-6900FEC94FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F08688-68CD-4679-9EBD-6900FEC94FE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
