@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFields_Properties_Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{C8F08688-68CD-4679-9EBD-6900FEC94FE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesAndNamespace", "FilesAndNamespace\FilesAndNamespace.csproj", "{C5D7D784-7A02-463B-81DA-BFE5B795184D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalUsing", "GlobalUsing\GlobalUsing.csproj", "{FCC19303-945C-42BA-A529-55291027AAD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{C8F08688-68CD-4679-9EBD-6900FEC94FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8F08688-68CD-4679-9EBD-6900FEC94FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8F08688-68CD-4679-9EBD-6900FEC94FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D7D784-7A02-463B-81DA-BFE5B795184D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D7D784-7A02-463B-81DA-BFE5B795184D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D7D784-7A02-463B-81DA-BFE5B795184D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D7D784-7A02-463B-81DA-BFE5B795184D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC19303-945C-42BA-A529-55291027AAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC19303-945C-42BA-A529-55291027AAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC19303-945C-42BA-A529-55291027AAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC19303-945C-42BA-A529-55291027AAD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
