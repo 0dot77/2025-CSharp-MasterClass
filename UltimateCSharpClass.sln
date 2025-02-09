@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesAndNamespace", "FilesA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalUsing", "GlobalUsing\GlobalUsing.csproj", "{FCC19303-945C-42BA-A529-55291027AAD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollGame", "DiceRollGame\DiceRollGame.csproj", "{5338CC57-9C4C-4F41-B458-76F5D63D86F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{FCC19303-945C-42BA-A529-55291027AAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCC19303-945C-42BA-A529-55291027AAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCC19303-945C-42BA-A529-55291027AAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5338CC57-9C4C-4F41-B458-76F5D63D86F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5338CC57-9C4C-4F41-B458-76F5D63D86F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5338CC57-9C4C-4F41-B458-76F5D63D86F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5338CC57-9C4C-4F41-B458-76F5D63D86F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
