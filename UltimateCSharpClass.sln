@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalUsing", "GlobalUsing\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollGame", "DiceRollGame\DiceRollGame.csproj", "{5338CC57-9C4C-4F41-B458-76F5D63D86F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollGameReview", "DiceRollGameReview\DiceRollGameReview.csproj", "{4A20EEBC-747C-4B56-8A06-1678B7B78324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{5338CC57-9C4C-4F41-B458-76F5D63D86F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5338CC57-9C4C-4F41-B458-76F5D63D86F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5338CC57-9C4C-4F41-B458-76F5D63D86F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A20EEBC-747C-4B56-8A06-1678B7B78324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A20EEBC-747C-4B56-8A06-1678B7B78324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A20EEBC-747C-4B56-8A06-1678B7B78324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A20EEBC-747C-4B56-8A06-1678B7B78324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
