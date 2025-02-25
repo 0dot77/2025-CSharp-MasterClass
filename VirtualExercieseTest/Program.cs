@@ -1,5 +1,9 @@
-﻿var ex = new Exercise();
-Console.WriteLine(ex.ProcessAll(["Goeee", "dkjqk"]));
+﻿var ex = new Exercise().ProcessAll(new List<string>(){"grok", "newist"});
+
+foreach (var e in ex)
+{
+   Console.WriteLine(e); 
+}
 public class Exercise
 {
     public List<string> ProcessAll(List<string> words)
@@ -35,17 +39,24 @@ public class StringsUppercaseProcessor : StringsProcessor
         foreach (var word in words)
         {
             int halfOfCharacters = (int)word.Length / 2;
-            string trimmedWords = word.Substring(halfOfCharacters);
+            string trimmedWords = word.Substring(0, halfOfCharacters);
+            trimmedStrings.Add(trimmedWords);
         }
 
-        return words;
+        return trimmedStrings;
     }
 }
 
 public class StringsTrimmingProcessor : StringsProcessor
 {
-    public override List<string> Process(List<string> word)
+    public override List<string> Process(List<string> words)
     {
-        return word;
+        List<string> upperedStrings = new List<string>(words.Count);
+        foreach (var word in words)
+        {
+            string upperedWords = word.ToUpper();
+            upperedStrings.Add(upperedWords);
+        }
+        return upperedStrings;
     }
 }
